@@ -1,0 +1,11 @@
+function () {
+
+		if (fulltext.includes(cloze)){
+			var word=fulltext.replace(cloze,"__________");
+			console.log(word);
+		} else {
+			console.log("Oops, choose a fifferenc cloze, make sure it is from the sentence.");
+		}
+
+	}
+the bird is a parrot
